@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'biblioteca.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'api-db',  # nome do banco de dados PostgreSQL
-        'USER': 'api-db',         # usuário do PostgreSQL
+        'NAME': 'django-db',  # nome do banco de dados PostgreSQL
+        'USER': 'django-db',         # usuário do PostgreSQL
         'PASSWORD': '123456',       # senha do usuário
-        'HOST': 'localhost',           # endereço do servidor (use 'localhost' para local)
+        'HOST': 'django-db',           # endereço do servidor (use 'localhost' para local)
         'PORT': '5432',                # porta padrão do PostgreSQL
     }
 }
